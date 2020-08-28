@@ -1,1 +1,1 @@
-# web-proj3
+Adadpted for all devices test website.
