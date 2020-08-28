@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.04em;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+    margin-top: 36px;
+    margin-bottom: 54px;
+}
+.contact-us{
+    margin: 0 auto;
+    background: linear-gradient(229.51deg, #98D0FC 2.46%, #3481D7 93.24%);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.contact-us h1{
+    margin-top: 50px;
+    height: 74px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.contact-us p{
+    margin-top: 16px;
+    width: 780px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contact-us #vect1{
+    position: absolute;
+    bottom: 10px;
+    right: 450px;
+}
+.contact-us #vect2{
+    position: absolute;
+    top: 115px;
+    left: 380px;
+}
+.contact-us #vect3{
+    position: absolute;
+    top: 25px;
+    right: 410px;
+}
+.contact-us #vect4{
+    position: absolute;
+    top: 45px;
+    right: 60px;
+}
+.contact-us #vect5{
+    position: absolute;
+    bottom: 40px;
+    right: 125px;
+}
+.contact-us #vect6{
+    position: absolute;
+    bottom: 230px;
+    left: 330px;
+}
+.contact-us #vect7{
+    position: absolute;
+    top: 230px;
+    left: 180px;
+}
+.contact-us #vect8{
+    position: absolute;
+    top: 85px;
+    right: 1280px;
+}
+.main-content{
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-left{
+    margin-top: 79px;
+}
+.main-left #main-l-img{
+    margin-bottom: 56px;
+}
+.main-left h3{
+    width: 193px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+.main-left p{
+    margin-top: 24px;
+    width: 299px;
+    height: 53px;
+    left: 214px;
+    top: 805px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    opacity: 0.6;
+    margin-bottom: 40px;
+}
+.phone-numbers{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.phone-numbers a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 180px;
+    height: 26px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    margin-bottom: 16px;
+}
+.phone-numbers a img{
+    margin-right: 19px;
+}
+.site-mail{
+    display: flex;
+    flex-direction: column;
+}
+.site-mail a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 215px;
+    height: 26px;
+    left: 253px;
+    top: 1156px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    margin-top: 16px;
+}
+.site-mail a img{
+    margin-right: 19px;
+}
+.card{
+    padding: 56px;
+    width: 540px;
+    height: 800px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+.card h2{
+    width: 200px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+    margin-bottom: 48px;
+}
+.card h5{
+    margin-bottom: 8px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #1F3F68;
+    opacity: 0.8;
+}
+.card input{
+    width: 100%;
+    height: 72px;
+    padding: 21px 36px;
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 32px;
+    outline: none;
+}.card input::placeholder{
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 30px;
+     color: #1F3F68;
+     opacity: 0.4;
+ }
+.card #message{
+    height: 144px;
+    padding-bottom: 80px;
+}
+
+.card button{
+    margin-top: 40px;
+    width: 100%;
+    height: 72px;
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    border: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.map{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+iframe{
+    margin-top: 96px;
+    width: 100%;
+}
+footer{
+    margin-top: 112px;
+    background: #316099;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-top-left h3{
+    margin-top: 91px;
+    width: 340.96px;
+    height: 92px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+.footer-top-left p{
+    margin-top: 32px;
+    width: 494.77px;
+    height: 80px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.footer-top-right button{
+    margin-top: 165px;
+    width: 236.63px;
+    height: 56px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+}
+.hr{
+    margin-top: 96px;
+    height: 0px;
+    opacity: 0.4;
+    border-bottom: 1px solid #FFFFFF;
+}
+.main-contacts{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main-c-item{
+    margin-top: 64px;
+    display: flex;
+}
+.main-c-item h5{
+    width: 22.81px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-right: 19px;
+}
+.main-c-item h6{
+    width: 316.98px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.footer-bottom p{
+    margin-top: 64px;
+    padding-bottom: 64px;
+    width: 309.77px;
+    height: 26px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+@media (min-width: 668px) and (max-width: 1024px) {
+    .container {
+        padding: 0 32px;
+    }
+
+    .header {
+        margin-top: 10px;
+    }
+
+    .contact-us h1 {
+        width: 520px;
+    }
+
+    .contact-us p {
+        width: 520px;
+    }
+
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-top: 64px;
+    }
+
+    iframe{
+        margin-top: 64px;
+    }
+    footer{
+        padding: 0 100px;
+    }
+    .footer-top-left p{
+        width: 336px;
+        height: 96px;
+    }
+    .footer-top-right button{
+        width: 133.04px;
+        height: 31.48px;
+
+    }
+    .main-c-item h6{
+        height: 100%;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1300px){
+    .container{
+        padding: 0 32px;
+    }
+}
+@media (max-width: 667px){
+    .container{
+        padding: 0 16px;
+    }
+    .header{
+        margin-top: 10px;
+        margin-bottom: 32px;
+    }
+    .main-content{
+        margin-top: 36px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #vect2{
+        display: none;
+    }
+    .contact-us h1{
+        width: 170px;
+        height: 28px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .contact-us p{
+        width: 341px;
+        height: 81px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .main-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        margin-top: 32px;
+        width: 342.67px;
+        height: 514px;
+        padding: 36px;
+    }
+    .card h2{
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 32px;
+    }
+    .card h5{
+        height: 20px;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .card input{
+        width: 271.6px;
+        height: 46.26px;
+        margin-bottom: 20px;
+    }
+    .card #message{
+        height: 92.52px;
+        padding-bottom: 69px;
+    }
+    .card button{
+        height: 46.26px;
+        margin-top: 25px;
+    }
+    iframe{
+        margin: 32px 0;
+    }
+    footer{
+        margin-top: 0;
+    }
+    .footer-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-top-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-top-left h3{
+        margin-top: 18px;
+        font-weight: 300;
+        width: 203px;
+        height: 51px;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .footer-top-left p{
+        width: 343px;
+        height: 97px;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .footer-top-right button {
+        margin-top: 40px;
+        font-weight: 100;
+        width: 108px;
+        height: 31px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .hr {
+        margin-top: 40px;
+    }
+    .main-c-item {
+        margin-bottom: 18px;
+        margin-top: 0;
+    }
+    .main-contacts{
+        margin-top: 32px;
+    }
+    .footer-bottom p {
+        margin-top: 20px;
+        width: 343px;
+        height: 26px;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+}
+@media (max-width: 320px){
+    .container{
+        padding: 0 10px;
+    }
+    .header{
+        margin-bottom: 24px;
+    }
+    .main-content{
+        margin-top: 24px;
+    }
+    .contact-us h1{
+        width: 170px;
+        height: 28px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    #vect2, #vect3, #vect6, #vect8,
+    #vect1{
+        display: none;
+    }
+    .contact-us p{
+        width: 301px;
+        height: 81px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .main-left{
+        margin-top: 16px;
+    }
+    .main-left #main-l-img{
+        margin-bottom: 24px;
+    }
+    .main-left h3{
+        font-size: 16px;
+    }
+    .main-left p{
+        font-size: 12px;
+    }
+    .phone-numbers a{
+        font-size: 14px;
+    }
+    .site-mail a{
+        font-size: 14px;
+    }
+    .card {
+        margin-top: 24px;
+        width: 310px;
+        height: 514px;
+        padding: 18px;
+    }
+    .footer-top-left p{
+        width: 301px;
+    }
+    .main-c-item{
+        width: 301px;
+    }
+    .main-c-item h6 {
+        width: 260px;
+        font-size: 14px;
+    }
+    .main-c-item h6{
+        height: 100%;
+    }
+    .footer-bottom p {
+        width: 301px;
+    }
+}
